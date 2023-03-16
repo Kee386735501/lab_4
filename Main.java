@@ -82,7 +82,6 @@ public class Main {
                 return s1.substring(s1.length() - 1).compareTo(s2.substring(s2.length() - 1));
             }
         });
-        System.out.println(ans);
           //write into output.txt
         FileWriter writer = new FileWriter("output.txt");
         BufferedWriter buffer = new BufferedWriter(writer);
